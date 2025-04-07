@@ -232,7 +232,12 @@ body {
   margin-bottom: 1rem;
 }
 
-
+.project-tags {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
 
 .project-tags span {
   background-color: rgba(59, 130, 246, 0.2);
