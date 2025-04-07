@@ -1,0 +1,404 @@
+/* Base styles */
+:root {
+  --primary-color: #3b82f6;
+  --secondary-color: #4b5563;
+  --third-color: #fb12dc;
+  --forth-color: #1da1f2;
+  --background-dark: #101725;
+  --background-card: #1f2937;
+  --text-primary: #ffffff;
+  --text-secondary: #9ca3af;
+  --transition: all 0.3s ease;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: var(--background-dark);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styles */
+.header {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.profile-image {
+  width: 128px;
+  height: 128px;
+  margin: 0 auto 2rem;
+  border-radius: 50%;
+  background: linear-gradient(to right, #3b82f6, #14b8a6);
+  padding: 3px;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Button styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #374151;
+}
+
+.btn-third {
+  background-color: var(--third-color);
+  color: white;
+}
+
+.btn-third:hover {
+  background-color: #c81fb2;
+}
+.btn-forth {
+  background-color: var(--forth-color);
+  color: white;
+}
+
+.btn-forth:hover {
+  background-color: #016ac1;
+}
+
+.btn-contact {
+  background-color: #dc2626;
+  color: white;
+}
+
+.btn-contact:hover {
+  background-color: #b91c1c;
+}
+
+/* Main content styles */
+.main {
+  flex: 1;
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section {
+  margin-bottom: 4rem;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* About section */
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--background-card);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+/* Skills section */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.skill-card {
+  background-color: var(--background-card);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-icon {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.frontend {
+  color: #3b82f6;
+}
+
+.backend {
+  color: #10b981;
+}
+
+.database {
+  color: #8b5cf6;
+}
+
+.Coding {
+  color: #f59e0b;
+}
+
+.Tool {
+  color: #596679;
+}
+
+.skill-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.skill-desc {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+/* Projects section */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background-color: var(--background-card);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  transition: var(--transition);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+
+
+.project-tags span {
+  background-color: rgba(59, 130, 246, 0.2);
+  color: #60a5fa;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+/* Certificates section */
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.certificate-card {
+  background-color: var(--background-card);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  transition: var(--transition);
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+}
+
+.certificate-icon {
+  color: #f59e0b;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+}
+
+.certificate-content {
+  flex: 1;
+}
+
+.certificate-content h3 {
+  font-size: 1.125rem;
+  margin: 0 0 0.5rem;
+}
+
+.certificate-content p {
+  color: var(--text-secondary);
+  margin: 0 0 0.5rem;
+}
+
+.certificate-date {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.certificate-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.certificate-link:hover {
+  text-decoration: underline;
+}
+
+/* Contact section */
+.contact-container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: var(--background-card);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.contact-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-note {
+  text-align: center;
+  margin-top: 2rem;
+  color: var(--text-secondary);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--text-secondary);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .title {
+    font-size: 1.125rem;
+  }
+
+  .section {
+    margin-bottom: 3rem;
+  }
+
+  .certificates-grid,
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-buttons {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 2rem 1rem;
+  }
+
+  .profile-image {
+    width: 96px;
+    height: 96px;
+  }
+
+  .section h2 {
+    font-size: 1.25rem;
+  }
+
+  .skill-card,
+  .certificate-card,
+  .project-card {
+    padding: 1rem;
+  }
+}
