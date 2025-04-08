@@ -1,3 +1,19 @@
+
+# My Portfolio
+_COMPANY_: CODTECH IT SOLUTIONS
+
+_NAME_: HIMANSHU SEKHAR NAYAK
+
+_INTERN ID_: CT04WB136
+
+_DOMAIN_: FRONTEND WEB DEVELPOMENT
+
+_DURATION_: 4 WEEKS
+
+_MENTOR_: NEELA SANTHOSH KUMAR
+
+---
+
 # Himanshu Sekhar Nayak's Portfolio
 
 This is the personal portfolio website of Himanshu Sekhar Nayak, a passionate Full Stack Web Developer. The website showcases my skills, projects, certificates, and contact information. It is built using **React.js** and **Vite** for a fast and optimized development experience.
