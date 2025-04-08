@@ -1,4 +1,3 @@
-
 # My Portfolio
 _COMPANY_: CODTECH IT SOLUTIONS
 
@@ -45,3 +44,6 @@ This is the personal portfolio website of Himanshu Sekhar Nayak, a passionate Fu
 ---
 
 ## Output
+![Image](https://github.com/user-attachments/assets/e175830e-0e12-4132-803e-0372c60500bc)
+![Image](https://github.com/user-attachments/assets/5d59f7c6-828c-46d0-a3d2-1667f305bf8a)
+![Image](https://github.com/user-attachments/assets/6d4b653b-9c23-42c8-b53c-8f9430970cd9)
