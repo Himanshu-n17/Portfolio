@@ -1,0 +1,31 @@
+# Himanshu Sekhar Nayak's Portfolio
+
+This is the personal portfolio website of Himanshu Sekhar Nayak, a passionate Full Stack Web Developer. The website showcases my skills, projects, certificates, and contact information. It is built using **React.js** and **Vite** for a fast and optimized development experience.
+
+---
+
+## 💻 Technologies Used
+
+- **React.js**: A JavaScript library for building user interfaces.
+- **Vite**: A fast build tool and development server for modern web projects.
+- **Lucide React**: A set of icons used for UI elements.
+- **CSS**: For styling the components and ensuring a responsive layout.
+- **Tailwind CSS** (optional): If you want to add utility-based styling.
+- **React Router DOM**: For handling routing in React applications.
+- **React Icons**: For including various icons in the app (e.g., LinkedIn, GitHub).
+
+---
+
+## 🚀 Features
+
+- **Header**: Contains a profile image, name, title, and links to social media.
+- **About Me Section**: Information about the developer’s background and interests.
+- **Skills Section**: Showcases the technologies the developer is proficient in (Frontend, Backend, Databases, etc.).
+- **Projects Section**: Lists personal projects, with links to both live demos and GitHub repositories.
+- **Certificates Section**: Displays the developer's certifications with external links to certificates.
+- **Contact Section**: Provides email and resume download options for potential collaborations or job opportunities.
+- **Footer**: Contains copyright information.
+
+---
+
+## Output
